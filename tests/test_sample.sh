@@ -4,6 +4,7 @@ set -euo pipefail
 # Biên dịch chương trình
 g++ -std=c++17 -Wall -Wextra -pedantic des.cpp -o des_test
 
+
 # Dữ liệu mẫu (Mode 1: Encrypt)
 # Input format: mode data key
 PLAINTEXT="0123456789ABCDEF" # Giả sử data của bạn dạng hex hoặc bit tùy code
