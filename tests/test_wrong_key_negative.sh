@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+
 # 1. Khởi tạo và biên dịch (nếu cần trong môi trường test)
 # Nếu hệ thống đã biên dịch sẵn file des ở thư mục gốc, hãy điều chỉnh đường dẫn ./des
 DES_EXE="./des"
