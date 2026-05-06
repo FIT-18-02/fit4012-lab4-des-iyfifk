@@ -3,6 +3,7 @@ set -euo pipefail
 
 mkdir -p logs
 
+
 g++ -std=c++17 -Wall -Wextra -pedantic des.cpp -o des
 
 echo "=== Run DES Program ===" > logs/run
